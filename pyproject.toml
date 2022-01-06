@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "Cubr.xyz"
+version = "0.1.0"
+description = "Move the large cube with your arrow keys. Eat the good food but stay away from the bad food!"
+authors = ["Solomon Gardner solgardner@icloud.com"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygame = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
